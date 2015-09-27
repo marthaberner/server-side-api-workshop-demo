@@ -1,8 +1,22 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.jumbotron {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+   width: 100%;
+   text-align: center;
+   border-bottom: 3px solid gray;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+h1 span {
+    background:#eee;
+    padding:0 10px;
 }
